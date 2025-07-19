@@ -21,10 +21,10 @@ const nextConfig = {
   images: {
     remotePatterns: [
       // Remove this if you're not using localhost for images at all
-       {
-         protocol: "http",
-        hostname: "localhost",
-      },
+      //{
+      //   protocol: "http",
+      //  hostname: "localhost",
+      //},
       {
         protocol: "https",
         hostname: "iajnjwbxmuvbvpykkorq.supabase.co", // <--- ADD THIS LINE FOR YOUR SUPABASE S3 BUCKET HOSTNAME
