@@ -15,4 +15,3 @@ export default function RootLayout(props: { children: React.ReactNode }) {
     </html>
   )
 }
-const hola= "hola";
